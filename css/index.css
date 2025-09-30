@@ -1,0 +1,105 @@
+body {
+  background-color: #f8f9fa;
+}
+#ps {
+  font-family: "Lato", serif;
+  font-size: 40px;
+  margin-left: 20px;
+}
+#ps>img{
+    border-radius: 100%;
+}
+#nav-btn {
+  margin-left: 10px;
+}
+#nav-btn1 {
+  margin-left: 500px;
+}
+
+#nav-button {
+  margin-left: 60px;
+}
+#img-row {
+  margin-top: 20px;
+  gap: 20px;
+}
+#carouselExampleControls {
+  margin-top: 10px;
+}
+#fig {
+  margin-left: 60px;
+  font-size: 20px;
+  font-weight: 700;
+}
+#cus {
+  margin-top: 30px;
+  gap: 70px;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+big {
+  font-weight: 700;
+}
+
+#boys {
+  margin-top: 150px;
+}
+#shopforboys,
+#shopforgirls,
+#shopforkids {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 500px;
+  font-size: 50px;
+}
+#f1 {
+  margin-left: 90px;
+}
+#fig2 {
+  margin-left: 70px;
+}
+#fig3 {
+  margin-left: 150px;
+}
+#G1 {
+  margin-top: 100px;
+}
+#f6 {
+  margin-left: 100px;
+}
+#fig5 {
+  margin-left: 200px;
+}
+
+#foot {
+  gap: 80px;
+  padding: 20px;
+  /* line-height: 20px; */
+  margin-left: 0px;
+  margin-top: 200px;
+  background-color: aliceblue;
+}
+#foot > ul > li > a:hover {
+  text-decoration: underline;
+}
+#foot > ul > li > a {
+  text-decoration: none;
+  color: black;
+  line-height: 20px;
+}
+#foot > ul > p {
+  font-size: 20px;
+  font-weight: 700;
+}
+#pay {
+  margin-left: 500px;
+}
+footer {
+  background-color: aliceblue;
+  height: 30px;
+  text-align: center;
+}
+#foot > ul > li > i {
+  margin-left: 10px;
+}

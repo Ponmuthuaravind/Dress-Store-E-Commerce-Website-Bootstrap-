@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> K.I.S.A.P.S Textile </title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="../assert/icon.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Piedra&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#" id="ps"><img src="../assert/icon.jpeg" height="60px" width="70px"> P S Dress World</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >      
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item" id="nav-btn1">
+            <a class="nav-link" href="#"
+              ><i class="fa-regular fa-circle-user fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav-item" id="nav-btn">
+            <a class="nav-link" href="#"
+              ><i class="fa-solid fa-cart-shopping fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav-item" id="nav-btn">
+            <a class="nav-link" href="#"
+              ><i class="fa-regular fa-heart fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" id="nav-btn">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="d-flex bg-light">
+      <div class="dropdown me-1" id="nav-button">
+        <button
+          class="dropdown-toggle btn btn-light"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          data-bs-offset="10,20"
+        >
+          Saree
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Pure Silk</a></li>
+          <li>
+            <a class="dropdown-item" href="#">Art Silk & Fancy Silk Sarees</a>
+          </li>
+          <li><a class="dropdown-item" href="#">Cotton Vareties</a></li>
+          <li><a class="dropdown-item" href="#">Designer Sarees</a></li>
+        </ul>
+      </div>
+      <div class="dropdown me-1" id="nav-button">
+        <button
+          type="button"
+          class="btn btn-light dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          data-bs-offset="10,20"
+        >
+          Women
+        </button>
+        <ul class="dropdown-menu" id="button1">
+          <li><a class="dropdown-item" href="#">Womens Top Wear</a></li>
+          <li><a class="dropdown-item" href="#">Womens Bottom Wear</a></li>
+          <li><a class="dropdown-item" href="#">Indian & Fusion wear</a></li>
+          <li><a class="dropdown-item" href="#">Unstitched Material</a></li>
+          <li><a class="dropdown-item" href="#">Innerwear</a></li>
+        </ul>
+      </div>
+      <div class="dropdown me-1" id="nav-button">
+        <button
+          type="button"
+          class="btn btn-light dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          data-bs-offset="10,20"
+        >
+          Men
+        </button>
+        <ul class="dropdown-menu" id="button1">
+          <li><a class="dropdown-item" href="#">Ethnic</a></li>
+          <li><a class="dropdown-item" href="#">Top wear</a></li>
+          <li><a class="dropdown-item" href="#">Bottom wear</a></li>
+        </ul>
+      </div>
+      <div class="dropdown me-1" id="nav-button">
+        <button
+          type="button"
+          class="btn btn-light dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          data-bs-offset="10,20"
+        >
+          Kids
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">For Boys</a></li>
+          <li><a class="dropdown-item" href="#">For Girls</a></li>
+        </ul>
+      </div>
+      <div class="dropdown me-1" id="nav-button">
+        <button
+          type="button"
+          class="btn btn-light dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          data-bs-offset="10,20"
+        >
+          Couples Collection
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Couples Combo</a></li>
+        </ul>
+      </div>
+      <div class="dropdown me-1" id="nav-button">
+        <button
+          type="button"
+          class="btn btn-light dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          data-bs-offset="10,20"
+        >
+          Combo Offers
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Saree Combo</a></li>
+          <li><a class="dropdown-item" href="#">Mens's Combo</a></li>
+        </ul>
+      </div>
+      <div class="dropdown me-1" id="nav-button">
+        <button
+          type="button"
+          class="btn btn-light dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          data-bs-offset="10,20"
+        >
+          Track Your Order
+        </button>
+      </div>
+    </div>
+
+    <div class="d-flex flex-nowrap" id="img-row">
+      <figure class="figure">
+        <img
+          src="../assert/saree-nav.jpeg"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="200px"
+          width="200px"
+        />
+        <figcaption class="figure-caption text-centre" id="fig">
+          Sarees
+        </figcaption>
+      </figure>
+      <figure class="figure">
+        <img
+          src="../assert/women-nav.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="200px"
+          width="200px"
+        />
+        <figcaption class="figure-caption text-centre" id="fig">
+          Women
+        </figcaption>
+      </figure>
+      <figure class="figure">
+        <img
+          src="../assert/men-nav.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="200px"
+          width="200px"
+        />
+        <figcaption class="figure-caption text-centre" id="fig">Men</figcaption>
+      </figure>
+      <figure class="figure">
+        <img
+          src="../assert/kids-nav.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="200px"
+          width="200px"
+        />
+        <figcaption class="figure-caption text-centre" id="fig">
+          Kids
+        </figcaption>
+      </figure>
+      <figure class="figure">
+        <img
+          src="../assert/couple-nav.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="200px"
+          width="200px"
+        />
+        <figcaption class="figure-caption text-centre" id="fig">
+          Couples
+        </figcaption>
+      </figure>
+      <figure class="figure">
+        <img
+          src="../assert/combo-nav.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="200px"
+          width="200px"
+        />
+        <figcaption class="figure-caption text-centre" id="fig">
+          Combo
+        </figcaption>
+      </figure>
+    </div>
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img
+              src="../assert/slide1.jpeg"
+              class="d-block w-100"
+              alt="..."
+              height="300px"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="../assert/slide2.jpeg"
+              class="d-block w-100"
+              alt="..."
+              height="300px"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="../assert/slide3.jpeg"
+              class="d-block w-100"
+              alt="..."
+              height="300px"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="d-flex" id="cus">
+      <i class="fa-solid fa-truck-fast fa-3x"></i>
+      <p>
+        <big>Free Shipping</big> <br />
+        Free Shipping for orders over ₹ 500 on prepaid
+      </p>
+      <i class="fa-solid fa-rotate fa-3x"></i>
+      <p>
+        <big>Hassle Free Exchange</big>
+        <br />
+        Exchange on your purchase with 7 days from delivery
+      </p>
+
+      <i class="fa-brands fa-whatsapp fa-3x"></i>
+      <p>
+        <big>24x7 Online Support</big>
+        <br />
+        Talk to our support team on any questions
+      </p>
+      <i class="fa-solid fa-money-bills fa-3x"></i>
+      <p>
+        <big>Flexible Payments</big>
+        <br />
+        Pay using UPI, Debit & Credit cards and Net Banking
+      </p>
+    </div>
+    <div id="boys">
+      <img src="../assert/boys.jpeg" class="img-fluid" alt="..." />
+    </div>
+    <div><p id="shopforboys">Shop for Boys</p></div>
+    <div class="d-flex flex-nowrap" id="img-row">
+      <figure class="figure" id="f1">
+        <img
+          src="../assert/Casual_Shirt.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="200px"
+          width="200px"
+        />
+        <figcaption class="figure-caption text-centre" id="fig2">
+          Cacual Shirt
+        </figcaption>
+      </figure>
+      <figure class="figure" id="f1">
+        <img
+          src="../assert/jens.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="200px"
+          width="200px"
+        />
+        <figcaption class="figure-caption text-centre" id="fig2">
+          jeans
+        </figcaption>
+      </figure>
+      <figure class="figure" id="f1">
+        <img
+          src="../assert/T-Shirts.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="200px"
+          width="200px"
+        />
+        <figcaption class="figure-caption text-centre" id="fig2">
+          T-Shirt
+        </figcaption>
+      </figure>
+      <figure class="figure">
+        <img
+          src="../assert/Traditional wear.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="200px"
+          width="200px"
+          id="f1"
+        />
+        <figcaption class="figure-caption text-centre" id="fig3">
+          Traditional Wear
+        </figcaption>
+      </figure>
+    </div>
+
+    <div id="G1">
+      <img src="../assert/gilrs.png" class="img-fluid" alt="..." />
+    </div>
+    <div><p id="shopforgirls">Shop for Girls</p></div>
+    <div class="d-flex flex-nowrap" id="img-row">
+      <figure class="figure" id="f1">
+        <img
+          src="../assert/sarees/Art_Silk_Saree.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="200px"
+          width="200px"
+        />
+        <figcaption class="figure-caption text-centre" id="fig2">
+          Art Silk Saree
+        </figcaption>
+      </figure>
+      <figure class="figure" id="f1">
+        <img
+          src="../assert/sarees/Chiffon_Sarees.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="200px"
+          width="200px"
+        />
+        <figcaption class="figure-caption text-centre" id="fig2">
+          Chiffon Sarees
+        </figcaption>
+      </figure>
+      <figure class="figure" id="f1">
+        <img
+          src="../assert/sarees/Kanchipuram_Pure_Silk_Saress.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="200px"
+          width="200px"
+        />
+        <figcaption class="figure-caption text-centre" id="fig2">
+          Kanchipuram <br />Pure Silk Saress
+        </figcaption>
+      </figure>
+      <figure class="figure">
+        <img
+          src="../assert/sarees/Linen_Cotton_Sarees.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="200px"
+          width="200px"
+          id="f1"
+        />
+        <figcaption class="figure-caption text-centre" id="fig3">
+          Linen cotton sarees
+        </figcaption>
+      </figure>
+    </div>
+
+    <div>
+      <div><p id="shopforkids">Shop for Kids</p></div>
+      <figure class="figure" id="f6">
+        <img
+          src="../assert/shopforboys.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="400px"
+          width="500px"
+        />
+        <figcaption class="figure-caption text-centre" id="fig5">
+          shop for boys
+        </figcaption>
+      </figure>
+      <figure class="figure" id="f6">
+        <img
+          src="../assert/shopforgirls.webp"
+          class="figure-img img-fluid rounded"
+          alt=""
+          height="400px"
+          width="500px"
+        />
+
+        <figcaption class="figure-caption text-centre" id="fig5">
+          shop for girls
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="d-flex justify-content-evenly" id="foot">
+      <ul type="none">
+        <li>
+          <h1>
+            Siva Sakthi
+            <h2>Textile</h2>
+          </h1>
+          Founded in the 1980s,Siva Sakthi Textiles offers a wide range of
+          products in Theni and online including clothing, accessories,
+          electronics and jewelry, led by Mr. Ponmuthu Aravind.<br />
+          <i class="fa-brands fa-square-instagram fa-2x"></i
+          ><i class="fa-brands fa-square-whatsapp fa-2x"></i
+          ><i class="fa-brands fa-square-facebook fa-2x"></i
+          ><i class="fa-brands fa-square-youtube fa-2x"></i>
+        </li>
+      </ul>
+      <ul type="circle">
+        <p>Main menu</p>
+        <li><a href="#">Saree</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Kids</a></li>
+        <li><a href="#">Couples_Collection</a></li>
+        <li><a href="#">Celebrity_Collection</a></li>
+        <li><a href="#">Combo_Offer</a></li>
+        <li><a href="#">Track_Your_Order</a></li>
+      </ul>
+      <ul type="circle">
+        <p>Information</p>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Return Policy</a></li>
+        <li><a href="#">Shipping Policy</a></li>
+        <li><a href="#">Terms And Conditions</a></li>
+      </ul>
+      <ul type="square">
+        <p>OUR STORES</p>
+        <li><a href="#">Aundipatti, Theni</a></li>
+        <li><a href="#">Mullai nagar, Theni</a></li>
+        <li><a href="#">Theni</a></li>
+        <li><a href="#">Chalakutti</a></li>
+
+        <li>
+          <a
+            >Cutomer Care : +91 6383464475<br />
+            Email Contact : Sivasakthitextile@gmail.com</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div>
+      <img
+        src="../assert/Razorpay_Secure_Payment-1.avif"
+        alt=""
+        height="50px"
+        width="300px"
+        id="pay"
+      />
+      <footer>© Sivasakthi Textiles 2025</footer>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/5b158fafe0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
